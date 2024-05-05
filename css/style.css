@@ -1,0 +1,41 @@
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v20-latin-regular.woff2") format("woff2");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  padding-top: 100px;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: #bfbfbf;
+}
+::-webkit-scrollbar:hover {
+  background-color: rgba(10, 10, 46, 0.368627451);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  background-color: #232536;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #454545;
+}
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
